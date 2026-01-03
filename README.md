@@ -196,22 +196,21 @@ HomeActivity (Menu)
 
 ## 📸 Скріншоти
 
-<!--
+
 ### Головний екран
-![Home Screen](screenshots/home.png)
+![Home Screen](screenshots/Screenshot_20260103_124329.png)
 
 ### Список завдань
-![Tasks Screen](screenshots/tasks.png)
+![Tasks Screen](screenshots/Screenshot_20260103_124337.png)
 
 ### Профіль студента
-![Profile Screen](screenshots/profile.png)
+![Profile Screen](screenshots/Screenshot_20260103_124350.png)
 
 ### Здоров'я та фокус
-![Health Screen](screenshots/health.png)
+![Health Screen](screenshots/Screenshot_20260103_124408.png)
 
 ### Автентифікація
-![Auth Screen](screenshots/auth.png)
--->
+![Auth Screen](screenshots/Screenshot_20260103_124218.png)
 
 ---
 
