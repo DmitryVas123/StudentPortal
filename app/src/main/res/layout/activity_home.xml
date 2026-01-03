@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Студентський міні-портал"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вітаємо!"
+        android:textSize="20sp"
+        android:textColor="#424242"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Цей застосунок допоможе вам організувати навчальний процес, відстежувати дедлайни та підтримувати здорові звички"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:paddingHorizontal="16dp" />
+
+    <Button
+        android:id="@+id/btnTasks"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="📋 Завдання та дедлайни"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1976D2" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="👤 Профіль студента"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#388E3C" />
+
+    <Button
+        android:id="@+id/btnHealth"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="💪 Здоров'я та фокус"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:backgroundTint="#D32F2F" />
+
+</LinearLayout>

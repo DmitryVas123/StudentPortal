@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Трекер звичок -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            android:radius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="✅ Трекер здорових звичок"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#D32F2F"
+                    android:layout_marginBottom="16dp" />
+
+                <CheckBox
+                    android:id="@+id/checkWater"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="💧 Випив воду (2л на день)"
+                    android:textSize="16sp"
+                    android:padding="8dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBreak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="⏰ Зробив перерву (кожні 50 хвилин)"
+                    android:textSize="16sp"
+                    android:padding="8dp" />
+
+                <CheckBox
+                    android:id="@+id/checkEyes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="👁️ Вправи для очей"
+                    android:textSize="16sp"
+                    android:padding="8dp" />
+
+                <CheckBox
+                    android:id="@+id/checkExercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🏃 Фізична активність"
+                    android:textSize="16sp"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Поради для очей -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            android:radius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="👁️ Гігієна зору"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Кожні 20 хвилин дивіться на об'єкт на відстані 6 метрів протягом 20 секунд"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Моргайте частіше, щоб зволожити очі"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Налаштуйте яскравість екрану відповідно до освітлення"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Тримайте екран на відстані 50-70 см від очей"
+                    android:textSize="14sp"
+                    android:textColor="#424242" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Вправи -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            android:radius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🏃 Швидкі вправи"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Розминка шиї: повільні повороти голови ліворуч-праворуч (10 разів)"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Розминка плечей: кругові рухи плечима вперед і назад (15 разів)"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Присідання: 15-20 повільних присідань"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Розтяжка спини: нахили вперед і в боки (8-10 разів)"
+                    android:textSize="14sp"
+                    android:textColor="#424242" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Нагадування -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:radius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="💡 Корисні поради"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#FF9800"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Робіть перерву кожні 50 хвилин роботи"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Підтримуйте правильну поставу під час роботи"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Пийте достатньо води протягом дня"
+                    android:textSize="14sp"
+                    android:textColor="#424242" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

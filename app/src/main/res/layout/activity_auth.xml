@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+
+    <!-- Заголовок -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Студентський портал"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вхід до системи"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Картка з формою входу -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp"
+        android:backgroundTint="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Email поле -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#424242"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="test@student.com"
+                android:inputType="textEmailAddress"
+                android:background="@android:drawable/edit_text"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Password поле -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пароль"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#424242"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="••••••••"
+                android:inputType="textPassword"
+                android:background="@android:drawable/edit_text"
+                android:padding="12dp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Кнопка входу -->
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Увійти"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:backgroundTint="#1976D2" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Кнопка "Пропустити" для демонстрації -->
+    <TextView
+        android:id="@+id/tvSkipLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пропустити (демо режим)"
+        android:textSize="14sp"
+        android:textColor="#1976D2"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Підказка -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💡 Тестовий акаунт:\nEmail: test@gmail.com\nПароль: 123456"
+        android:textSize="12sp"
+        android:textColor="#757575"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="#EEEEEE"
+        android:padding="12dp" />
+
+</LinearLayout>
+
